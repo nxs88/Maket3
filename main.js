@@ -40,7 +40,7 @@ window.addEventListener('resize', checkSwiper)
 checkSwiper()
 
 const menuBtn = document.querySelector('.menu__button')
-const menu = document.querySelector('.menu__list-tablet')
+const menu = document.querySelector('.menu__list')
 const menuText = menuBtn.querySelector('.menu__button-text')
 const menuBtnIcon = menuBtn.querySelector('.menu__button-icon')
 menuBtn.addEventListener('click', function () {
