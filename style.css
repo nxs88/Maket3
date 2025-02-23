@@ -48,7 +48,6 @@ a {
   font-display: swap;
 }
 
-
 /* Хэдер */
 
 .header {
@@ -80,7 +79,7 @@ a {
   width: 100%;
 }
 .swiper-wrapper {
-  padding: 0px 45px;
+  padding: 0px 16px;
 }
 
 .swiper-link {
@@ -116,16 +115,18 @@ a {
   column-gap: 24px;
   row-gap: 16px;
   margin-bottom: 24px;
+  height: 160px;
+  overflow: hidden;
 }
-.menu__list-tablet {
-  display: none;
-}
+
 .active {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
   column-gap: 24px;
   row-gap: 16px;
   margin-bottom: 24px;
+  height: auto;
+  
 }
 .menu__link {
   display: flex;
@@ -195,5 +196,10 @@ a {
   }
   .menu__list > .menu__item:nth-child(8) {
     display: list-item;
+  }
+}
+@media (min-width: 1760px) {
+  .menu__button {
+    display: none;
   }
 }
